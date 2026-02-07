@@ -1,0 +1,3 @@
+.import/       # Godot import cache
+.export/       # Exported builds
+
