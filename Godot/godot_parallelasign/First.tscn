@@ -1,0 +1,67 @@
+[gd_scene load_steps=16 format=3 uid="uid://b62ouixmw5srh"]
+
+[ext_resource type="PackedScene" uid="uid://c1wdgknudehf6" path="res://trap-spikes.fbx" id="1_6qjmn"]
+[ext_resource type="PackedScene" uid="uid://cnqgdsjeptv0r" path="res://tree.fbx" id="2_6p1uj"]
+[ext_resource type="PackedScene" uid="uid://rc5nfbt70a8r" path="res://block-grass-corner-overhang.fbx" id="3_xa0vw"]
+[ext_resource type="PackedScene" uid="uid://bcktb3leph2po" path="res://block-snow.fbx" id="4_3g24e"]
+[ext_resource type="PackedScene" uid="uid://d0i30anfmej5h" path="res://crate.fbx" id="5_s0rdu"]
+[ext_resource type="PackedScene" uid="uid://mka8nmti37yv" path="res://chest.fbx" id="6_7vjan"]
+[ext_resource type="PackedScene" uid="uid://bdq2kqejr8at5" path="res://pipe.fbx" id="6_wf7uq"]
+[ext_resource type="PackedScene" uid="uid://bvhbv4b8dcsgj" path="res://poles.fbx" id="7_3wex7"]
+[ext_resource type="PackedScene" uid="uid://brcfyr0yw5pke" path="res://tree-snow.fbx" id="7_mfys0"]
+[ext_resource type="PackedScene" uid="uid://chevdq1b0bw2w" path="res://platform-overhang.fbx" id="8_7rfjw"]
+[ext_resource type="PackedScene" uid="uid://csj4ysqj3sr3o" path="res://fence-low-corner-curved.fbx" id="8_jdnor"]
+[ext_resource type="PackedScene" uid="uid://bpsk1s2j7rfyk" path="res://barrel.fbx" id="9_ctih3"]
+[ext_resource type="PackedScene" uid="uid://beqet03qeef4i" path="res://platform-ramp.fbx" id="9_eainv"]
+[ext_resource type="PackedScene" uid="uid://ctt7u0idxkfce" path="res://character-oobi.fbx" id="10_m4bew"]
+[ext_resource type="PackedScene" uid="uid://d2xdnphlfwqom" path="res://heart.fbx" id="11_8xcm1"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="trap-spikes" parent="." instance=ExtResource("1_6qjmn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0721, 1.19209e-07, 2.51817)
+
+[node name="tree" parent="trap-spikes" instance=ExtResource("2_6p1uj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.466831, -2.38419e-07, -1.75473)
+
+[node name="block-grass-corner-overhang" parent="trap-spikes/tree" instance=ExtResource("3_xa0vw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.887331, -1.19209e-07, 3.79277)
+
+[node name="block-snow" parent="." instance=ExtResource("4_3g24e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.138326, 0, 3.66941)
+
+[node name="crate" parent="block-snow" instance=ExtResource("5_s0rdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.19719, 2.38419e-07, -1.55681)
+
+[node name="pipe" parent="block-snow" instance=ExtResource("6_wf7uq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.68188, 0, -0.587943)
+
+[node name="poles" parent="block-snow" instance=ExtResource("7_3wex7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.88811, 0, -3.80828)
+
+[node name="platform-overhang" parent="block-snow" instance=ExtResource("8_7rfjw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.04481, 4.76837e-07, -1.26004)
+
+[node name="platform-ramp" parent="block-snow" instance=ExtResource("9_eainv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.32834, 0, -5.01602)
+
+[node name="chest" parent="." instance=ExtResource("6_7vjan")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.54092, 0, 1.06823)
+
+[node name="tree-snow" parent="chest" instance=ExtResource("7_mfys0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.192612, -2.38419e-07, 2.84622)
+
+[node name="fence-low-corner-curved" parent="." instance=ExtResource("8_jdnor")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.73183, 2.38419e-07, 0.476879)
+
+[node name="crate2" parent="." instance=ExtResource("5_s0rdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.93466, 0, 0.29957)
+
+[node name="barrel" parent="." instance=ExtResource("9_ctih3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.93882, 0, 2.90822)
+
+[node name="character-oobi" parent="." instance=ExtResource("10_m4bew")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.78119, 0, 5.13817)
+
+[node name="heart" parent="." instance=ExtResource("11_8xcm1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.24675, 2.38419e-07, 1.86955)
