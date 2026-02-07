@@ -1,2 +1,3 @@
-2026/02/06-18:40:17.341 3be8 Creating DB C:\Users\shrey\Documents\Unreal Projects\Unreal_ParallelAsign\Saved\webcache_6613\Default\shared_proto_db since it was missing.
-2026/02/06-18:40:17.575 3be8 Reusing MANIFEST C:\Users\shrey\Documents\Unreal Projects\Unreal_ParallelAsign\Saved\webcache_6613\Default\shared_proto_db/MANIFEST-000001
+2026/02/06-19:40:59.599 97b8 Reusing MANIFEST D:\Parallel_Assignment\Shreya_ParallelEngineAssignment\Unreal\Unreal_ParallelAsign\Saved\webcache_6613\Default\shared_proto_db/MANIFEST-000001
+2026/02/06-19:40:59.600 97b8 Recovering log #3
+2026/02/06-19:40:59.600 97b8 Reusing old log D:\Parallel_Assignment\Shreya_ParallelEngineAssignment\Unreal\Unreal_ParallelAsign\Saved\webcache_6613\Default\shared_proto_db/000003.log 

@@ -1,13 +1,8 @@
-[39416:5340:0206/184010.995:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[39416:5340:0206/184011.072:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[39152:23756:0206/184019.517:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-CD265BA6C4C546C0141A9A4C1DA3C533 will be ignored
-[39416:22512:0206/184021.193:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
-[37740:27084:0206/184021.195:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
-[39416:5340:0206/184021.852:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
-[39416:22512:0206/184021.861:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
-[39416:5340:0206/184021.861:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
-[39416:5340:0206/184021.861:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
-[39416:5340:0206/184021.861:WARNING:browser_info.cc(345)] Returning a speculative frame for [11,9]
-[37740:27084:0206/184035.856:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
-[37740:27084:0206/184051.191:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
-[39416:5340:0206/184118.936:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[4184:27080:0206/194055.310:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[4184:27080:0206/194055.448:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[36796:32128:0206/194103.810:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-AB5F97FFF316EB47B6D8FEF01D481977 will be ignored
+[14148:38736:0206/194104.499:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
+[14148:38736:0206/194105.151:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[14148:38736:0206/194117.161:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[14148:38736:0206/194128.288:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
+[4184:27080:0206/194203.210:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
