@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Parallel_Assignment/Shreya_ParallelEngineAssignment/AttackInput_System/Unreal/Unreal_Assignment4/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Parallel_Assignment/Shreya_ParallelEngineAssignment/AttackInput_System/Unreal/Unreal_Assignment4/Content/Blueprint/IA_Attack.uasset",
+				"D:/Parallel_Assignment/Shreya_ParallelEngineAssignment/AttackInput_System/Unreal/Unreal_Assignment4/Content/Blueprint/IMC_Player.uasset"
+			]
+		}
+	]
+}

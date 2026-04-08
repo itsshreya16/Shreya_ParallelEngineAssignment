@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dcf3ouc7g7svt"]
+
+[ext_resource type="Texture2D" uid="uid://4odv2p3dol3t" path="res://Assests/First-Picsart-BackgroundRemover.png" id="1_bmpxm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ep1my"]
+radius = 62.0725
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(120.5, 106.5)
+scale = Vector2(0.251157, 0.308277)
+texture = ExtResource("1_bmpxm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(121, 133)
+shape = SubResource("CircleShape2D_ep1my")
