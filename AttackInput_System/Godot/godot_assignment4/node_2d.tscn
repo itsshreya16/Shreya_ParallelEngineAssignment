@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnn8dggxge1m0"]
+
+[ext_resource type="PackedScene" uid="uid://dcf3ouc7g7svt" path="res://character_body_2d.tscn" id="1_xp6sf"]
+[ext_resource type="Script" path="res://character_body_2d.gd" id="2_7egax"]
+
+[node name="Game" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_xp6sf")]
+position = Vector2(173, 58)
+script = ExtResource("2_7egax")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(170, 110)
+zoom = Vector2(2, 2)
